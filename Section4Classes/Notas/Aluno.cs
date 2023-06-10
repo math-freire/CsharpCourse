@@ -5,17 +5,15 @@ namespace Notas {
     internal class Aluno {
 
         public string Nome;
-        public double Nota1;
-        public double Nota2;
-        public double Nota3;
+        public double Nota1, Nota2, Nota3;
 
-        public double Nota() {
+        public double NotaFinal() {
             return Nota1 + Nota2 + Nota3;
         }
 
         public string Situacao() {
-            if (Nota() < 60.0) {
-                double faltando = 100 - Nota();
+            if (NotaFinal() < 60.0) {
+                double faltando = 100 - NotaFinal();
                 return "REPROVADO\nFALTARAM " + faltando + " PONTOS";
             } else
                 return "APROVADO";
@@ -24,7 +22,7 @@ namespace Notas {
 
         public override string ToString() {
             return "Nome: " + Nome +
-                "\nNota final: " + Nota().ToString("F2", CultureInfo.InvariantCulture) +
+                "\nNota final: " + NotaFinal().ToString("F2", CultureInfo.InvariantCulture) +
                 "\n" + Situacao();
         }
     }
