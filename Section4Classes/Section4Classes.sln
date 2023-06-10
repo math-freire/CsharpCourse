@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutosEmEstoque", "Produt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropriedadesRetangulo", "PropriedadesRetangulo\PropriedadesRetangulo.csproj", "{36134821-3171-43F4-9575-8D6F80213EDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarios", "Salarios\Salarios.csproj", "{C4F513AD-025B-4F30-958D-66223443533F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{36134821-3171-43F4-9575-8D6F80213EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36134821-3171-43F4-9575-8D6F80213EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36134821-3171-43F4-9575-8D6F80213EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F513AD-025B-4F30-958D-66223443533F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F513AD-025B-4F30-958D-66223443533F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F513AD-025B-4F30-958D-66223443533F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F513AD-025B-4F30-958D-66223443533F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
