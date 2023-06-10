@@ -7,6 +7,14 @@ namespace ProdutosEmEstoque {
         public double Preco;
         public int Quantidade;
 
+        public void AdicionarProduto(int quantidade) {
+            Quantidade += quantidade;
+        }
+
+        public void RemoverProduto(int quantidade) {
+            Quantidade -= quantidade;
+        }
+
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }
