@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 namespace Section4Classes {
-    class Program {
+    class AreaTrianguloClasses {
         static void Main(string[] args) {
 
             Triangulo x, y;
