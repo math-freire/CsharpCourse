@@ -14,8 +14,8 @@ class EstoqueMain {
         Console.WriteLine("Preço: ");
         p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         Console.WriteLine("Quantidade no estoque: ");
-        p.Quantidade = int.Parse(Console.ReadLine();
+        p.Quantidade = int.Parse(Console.ReadLine());
 
-        
+        Console.WriteLine(p);
     }
 }
