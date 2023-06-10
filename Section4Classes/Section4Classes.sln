@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarios", "Salarios\Salari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notas", "Notas\Notas.csproj", "{FC130CE8-D0F4-49F6-8885-7322C847233C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembrosEstaticos", "MembrosEstaticos\MembrosEstaticos.csproj", "{7360B9EC-703E-46CF-AEC1-0B0E6B19FE9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FC130CE8-D0F4-49F6-8885-7322C847233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC130CE8-D0F4-49F6-8885-7322C847233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC130CE8-D0F4-49F6-8885-7322C847233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7360B9EC-703E-46CF-AEC1-0B0E6B19FE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7360B9EC-703E-46CF-AEC1-0B0E6B19FE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7360B9EC-703E-46CF-AEC1-0B0E6B19FE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7360B9EC-703E-46CF-AEC1-0B0E6B19FE9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
