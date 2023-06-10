@@ -6,9 +6,8 @@ namespace PropriedadesRetangulo {
 
             Retangulo r1 = new Retangulo();
 
-            Console.Write("Entre com a largura do retângulo: ");
+            Console.WriteLine("Entre com a largura e altura do retângulo (separado por enter): ");
             r1.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Console.Write("Agora entre com a altura: ");
             r1.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine(r1);
