@@ -3,7 +3,7 @@
 namespace Notas {
     internal class NotasMain {
         static void Main(string[] args) {
-            
+
             Aluno a1 = new Aluno();
 
             Console.Write("Digite o nome do aluno: ");
@@ -17,6 +17,6 @@ namespace Notas {
             Console.WriteLine();
             Console.WriteLine(a1);
         }
-        
+
     }
 }

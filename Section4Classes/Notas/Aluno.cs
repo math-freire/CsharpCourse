@@ -14,10 +14,12 @@ namespace Notas {
         }
 
         public string Situacao() {
-            if (Nota() < 60.0)
-                return "REPROVADO";
-            else
+            if (Nota() < 60.0) {
+                double faltando = 100 - Nota();
+                return "REPROVADO\nFALTARAM " + faltando + " PONTOS";
+            } else
                 return "APROVADO";
+
         }
 
         public override string ToString() {
