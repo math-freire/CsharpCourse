@@ -32,7 +32,8 @@ namespace ContaBancaria {
         }
 
         public void Saque(double valor) {
-            Saldo -= (5 + valor);
+            if(valor > 0 )
+                Saldo -= (5 + valor);
         }
 
         public override string ToString() {
