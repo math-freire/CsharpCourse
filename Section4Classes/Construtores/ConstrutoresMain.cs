@@ -28,5 +28,6 @@ class ConstrutoresMain {
         p.RemoverProduto(qtd);
 
         Console.WriteLine("\nDados atualizados: " + p);
+
     }
 }
