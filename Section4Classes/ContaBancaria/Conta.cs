@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 
 namespace ContaBancaria {
     internal class Conta {
@@ -17,14 +18,13 @@ namespace ContaBancaria {
             }
         }
 
-        public Conta(string nome, int conta, double deposito) {
-            _titular = nome;
-            Numero = conta;
-            Saldo = deposito;
-        }
         public Conta(String nome, int conta) {
             _titular = nome;
             Numero = conta;
+        }
+
+        public Conta(string nome, int conta, double deposito) : this (nome, conta) {
+            Depositar(deposito);
         }
 
         public void Depositar(double valor) {
