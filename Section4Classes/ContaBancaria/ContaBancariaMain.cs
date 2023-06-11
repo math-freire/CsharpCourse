@@ -4,21 +4,19 @@ using System.Globalization;
 namespace ContaBancaria {
     internal class ContaBancariaMain {
         static void Main(string[] args) {
-
-            int num;
-            string tit;
+       
             double deposit = 0;
+            Conta cc;
 
             Console.Write("Entre com o número da conta: ");
-            num = int.Parse(Console.ReadLine());
+            int num = int.Parse(Console.ReadLine());
 
             Console.Write("Entre com o titular da conta: ");
-            tit = Console.ReadLine();
+            string tit = Console.ReadLine();
 
             Console.Write("Haverá depósito inicial (s/n)? ");
-            string resposta = Console.ReadLine();
+            string resposta = Console.ReadLine().ToLower();
 
-            Conta cc;
 
              // TODO: NECESSARIO TIRAR A CRIAÇÃO DOS OBJETOS DE DENTRO DOS IF ELSE
             if (resposta == "s") {

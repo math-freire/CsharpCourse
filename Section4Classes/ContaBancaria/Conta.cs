@@ -37,7 +37,7 @@ namespace ContaBancaria {
         }
 
         public override string ToString() {
-            return "Nome: " + Titular + ", número de conta: " + Numero + ", Saldo: R$" + Saldo;
+            return "Nome: " + Titular + ", número de conta: " + Numero + ", Saldo: R$" + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
