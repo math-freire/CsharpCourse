@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetores", "Vetores\Vetores.csproj", "{DC25E54E-0F75-4356-A725-B0ADE2227711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetores", "Vetores\Vetores.csproj", "{DC25E54E-0F75-4356-A725-B0ADE2227711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExVetores", "ExVetores\ExVetores.csproj", "{0852AEE4-F1A4-4210-B744-694B4BF40EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC25E54E-0F75-4356-A725-B0ADE2227711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC25E54E-0F75-4356-A725-B0ADE2227711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC25E54E-0F75-4356-A725-B0ADE2227711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0852AEE4-F1A4-4210-B744-694B4BF40EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0852AEE4-F1A4-4210-B744-694B4BF40EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0852AEE4-F1A4-4210-B744-694B4BF40EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0852AEE4-F1A4-4210-B744-694B4BF40EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
