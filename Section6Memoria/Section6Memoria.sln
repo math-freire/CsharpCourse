@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listas", "Listas\Listas.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExListOfEmployee", "ExListOfEmployee\ExListOfEmployee.csproj", "{9BDFBE26-A598-4773-BDFB-7D9A5D373F34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matriz", "Matriz\Matriz.csproj", "{AE7DC0FC-47AE-4A37-BD12-CC351E71F372}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matriz", "Matriz\Matriz.csproj", "{AE7DC0FC-47AE-4A37-BD12-CC351E71F372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExMatriz", "ExMatriz\ExMatriz.csproj", "{69D514E1-DE02-42E7-AA10-0FFE15E8C971}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{AE7DC0FC-47AE-4A37-BD12-CC351E71F372}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7DC0FC-47AE-4A37-BD12-CC351E71F372}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7DC0FC-47AE-4A37-BD12-CC351E71F372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D514E1-DE02-42E7-AA10-0FFE15E8C971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D514E1-DE02-42E7-AA10-0FFE15E8C971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D514E1-DE02-42E7-AA10-0FFE15E8C971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D514E1-DE02-42E7-AA10-0FFE15E8C971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
